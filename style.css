@@ -48,7 +48,7 @@ li a {
     height: 700px;
     background-size: auto;
     background-position: center;
-    margin: 69px auto;
+    margin: auto;
     display: flex;
     align-items: center;
     align-content: center;
@@ -69,7 +69,7 @@ li a {
 .tea-container {
     height: auto;
     max-width: 1000px;
-    margin: 20px auto 0;
+    margin: 69px auto;
     text-align: center;
     
 
@@ -97,6 +97,7 @@ li a {
 img {
     height: 200px;
     width: 300px;
+    margin: 10px;
 
 }
 
