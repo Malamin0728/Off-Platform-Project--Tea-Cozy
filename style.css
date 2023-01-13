@@ -1,13 +1,23 @@
+main {
+    opacity:0.9;
+    width:100%;
+   
+}
+
 body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+
+    
 }
 
 .logo {
     max-height: 50px;
+
+    width: auto;
     margin-left: 10px;
 }
 header {
@@ -16,7 +26,7 @@ header {
     border-bottom: 1px solid seashell;
     display: flex;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     right: 0;
@@ -28,8 +38,8 @@ header {
 ul {
     display: flex;
     list-style: none;
-    flex-wrap: nowrap;
     justify-content: space-between;
+
 }
 li  {
     display: inline-flex;
@@ -46,6 +56,7 @@ li a {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     width: 1200px;
     height: 700px;
+    max-width: 100%;
     background-size: auto;
     background-position: center;
     margin: 69px auto 0;
@@ -102,8 +113,10 @@ img {
 }
 
 .location-container {
+    
     height: 500px;
     width: 1200px;
+    max-width: 100%;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1re4peo*_ga*ODE4MTg3NjY0NC4xNjcyNDMyMDQz*_ga_3LRZM6TM9L*MTY3Mjk2NTg4Mi4xNi4xLjE2NzI5NjU5NTAuNTIuMC4w");
     background-size: auto;
     background-position: center;
@@ -121,6 +134,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-bottom: 75px;
+    max-width: 100%;
     
     
 }
@@ -130,6 +144,7 @@ img {
     opacity: 1;
     margin: auto 20px;
     width: 300px;
+    max-width: 100%;
 }
 
 .contact {
