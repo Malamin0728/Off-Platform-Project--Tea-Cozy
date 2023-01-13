@@ -113,12 +113,12 @@ img {
 }
 
 .location-container {
-    
-    height: 500px;
+    height: auto;
     width: 1200px;
+
     max-width: 100%;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1re4peo*_ga*ODE4MTg3NjY0NC4xNjcyNDMyMDQz*_ga_3LRZM6TM9L*MTY3Mjk2NTg4Mi4xNi4xLjE2NzI5NjU5NTAuNTIuMC4w");
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     margin: auto;
     display: flex;
@@ -131,18 +131,21 @@ img {
 
 .location-boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 75px;
     max-width: 100%;
     
     
+    
 }
 
 .location-address {
+    
     background-color: black;
     opacity: 1;
-    margin: auto 20px;
+    margin: 20px 20px;
     width: 300px;
     max-width: 100%;
 }
